@@ -1,0 +1,23 @@
+.app_nav {
+    grid-area: a;
+    background-color: aliceblue;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app_nav a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 40px;
+    transition: all 0.8s ease-in-out;
+}
+.app_nav a:hover {
+    color: green;
+}
+
+.app_nav a.active_link {
+    color: red;
+ }

@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+}
+
+.dialogs {
+    color: red
+}
+
+.users_names {
+    width: 15%;
+    margin-right: 20px;
+    border-right: 2px solid grey;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.users_names .items, .messages .items {
+    margin-bottom: 40px;
+}
+
+.messages {
+    width: calc(100% - 15% - 20px);
+    padding-left: 50px;
+    color: darkslategrey;
+}
+
+.active_user{
+    text-transform: uppercase;
+    color: green;
+}
